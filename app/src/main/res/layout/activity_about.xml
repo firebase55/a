@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2E7CE"
+    tools:context=".AboutActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="About Momin Pro"
+        app:titleMarginStart="115dp"
+        app:titleTextColor="#ffffff"
+        android:id="@+id/aboutToolbar"
+        android:background="#A48D61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:onClick="back"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+
+    <ImageView
+        android:id="@+id/namaz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/namaz"
+        android:layout_width="125dp"
+        android:layout_height="125dp"/>
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textSize="18dp"
+        android:textColor="#38301F"
+        android:layout_marginTop="80dp"
+        android:lines="6"
+        android:padding="25dp"
+        android:text="Being momin is a lifestyle and Momin Pro supports though its services to the Muslims around the world to become one by practicing their daily religious activities with more ease and consistency. "
+        android:layout_below="@id/namaz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

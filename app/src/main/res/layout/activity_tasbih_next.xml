@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2E7CE"
+    tools:context=".TasbihNextActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="Tasbih"
+        app:titleMarginStart="160dp"
+        app:titleTextColor="#ffffff"
+        android:id="@+id/tasbihToolbar"
+        android:background="#A48D61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:onClick="back"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_below="@id/tasbihToolbar"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/counterTxt"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="120sp"
+            android:text="25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/decrease"
+            android:layout_marginTop="250dp"
+            android:src="@drawable/minus"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+
+        <ImageView
+            android:id="@+id/increase"
+            android:layout_marginTop="250dp"
+            android:src="@drawable/plus"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+
+        <ImageView
+           android:id="@+id/reset"
+            android:layout_marginTop="250dp"
+            android:src="@drawable/reset"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

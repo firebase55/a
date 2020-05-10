@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="Momin Pro"
+        app:titleTextColor="#ffffff"
+        android:id="@+id/myToolbar"
+        android:background="#A48D61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:layout_marginRight="25sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7sp"
+            android:id="@+id/icon"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:onClick="menus"
+            android:src="@drawable/settings" />
+
+
+    <TextView
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="5sp"
+        android:id="@+id/mylocationTv"
+        android:background="#A48D61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="68sp"
+        android:id="@+id/mylocationTv1"
+        android:background="#A48D61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textSize="15sp"
+        android:id="@+id/mydateTv"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="272dp"
+        android:background="#A48D61"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="15sp"
+        android:id="@+id/tHijriTv"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="5sp"
+        android:background="#A48D61"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <ImageView
+        android:layout_marginTop="190dp"
+        android:src="@drawable/timing"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="11sp"
+        android:id="@+id/myfajrTv"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="78sp"
+        android:id="@+id/mydhuhrTv"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="155sp"
+        android:id="@+id/myasrTv"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="227sp"
+        android:id="@+id/mymaghribTv"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="298sp"
+        android:id="@+id/myishaTv"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ScrollView
+        android:layout_below="@id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="240sp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:onClick="prayer"
+                    android:layout_marginLeft="10sp"
+                    android:src="@drawable/prayer"
+                    android:layout_width="95sp"
+                    android:layout_height="95sp"/>
+
+
+                <ImageView
+                    android:onClick="quran"
+                    android:layout_marginLeft="27sp"
+                    android:layout_marginRight="27sp"
+                    android:src="@drawable/quran"
+                    android:layout_width="95sp"
+                    android:layout_height="95sp"/>
+
+                <ImageView
+                    android:onClick="qibla"
+                    android:src="@drawable/qibla"
+                    android:layout_width="95sp"
+                    android:layout_height="95sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_marginTop="15sp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:onClick="tasbih_next"
+                        android:layout_marginLeft="10sp"
+                        android:src="@drawable/tasbih"
+                        android:layout_width="95sp"
+                        android:layout_height="95sp"/>
+
+
+                    <ImageView
+                        android:onClick="azkar"
+                        android:layout_marginLeft="27sp"
+                        android:layout_marginRight="27sp"
+                        android:src="@drawable/azkar"
+                        android:layout_width="95sp"
+                        android:layout_height="95sp"/>
+
+                    <ImageView
+                        android:onClick="mosque_finder_next"
+                        android:src="@drawable/mosquefinder"
+                        android:layout_width="95sp"
+                        android:layout_height="95sp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_marginTop="15sp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:onClick="Allah_names"
+                        android:layout_marginLeft="10sp"
+                        android:src="@drawable/allah"
+                        android:layout_width="95sp"
+                        android:layout_height="95sp"/>
+
+
+                    <ImageView
+                        android:onClick="talawat_next"
+                        android:layout_marginLeft="27sp"
+                        android:layout_marginRight="27sp"
+                        android:src="@drawable/talawat"
+                        android:layout_width="95sp"
+                        android:layout_height="95sp"/>
+
+                    <ImageView
+                        android:onClick="azan_next"
+                        android:src="@drawable/azan"
+                        android:layout_width="95sp"
+                        android:layout_height="95sp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

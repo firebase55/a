@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F2E7CE"
+    tools:context=".EighteenAzanPlayer">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/azanToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A48D61"
+        app:title="Azan"
+        app:titleMarginStart="156dp"
+        app:titleTextColor="#ffffff" />
+
+
+    <ImageView
+        android:onClick="back"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/speaker"
+            android:layout_width="240sp"
+            android:layout_height="240sp"/>
+
+        <LinearLayout
+            android:layout_marginTop="65sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:src="@drawable/pause"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:onClick="pause"/>
+
+            <ImageView
+                android:src="@drawable/play"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:onClick="play" />
+
+            <ImageView
+                android:src="@drawable/stop"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:onClick="stop" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

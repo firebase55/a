@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DuaActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="Azkaar"
+        app:titleMarginStart="160dp"
+        app:titleTextColor="#ffffff"
+        android:id="@+id/duaToolbar"
+        android:background="#A48D61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:onClick="back"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:layout_below="@id/duaToolbar"
+        android:id="@+id/pdfView"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".QiblaNextActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="Qibla Direction"
+        app:titleMarginStart="120dp"
+        app:titleTextColor="#ffffff"
+        android:id="@+id/qiblaToolbar"
+        android:background="#A48D61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:onClick="back"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="58dp"
+        android:id="@+id/activity_compass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F2E7CE">
+
+
+
+
+        <TextView
+            android:id="@+id/txt_show"
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:fontFamily="sans-serif-black"
+            android:text="0°"
+            android:gravity="center_horizontal"
+            android:textColor="#A48D61"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/compass"
+            android:layout_width="250dp"
+            android:layout_marginTop="80dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/txt_show"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/compass"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

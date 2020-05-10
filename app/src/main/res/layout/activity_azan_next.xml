@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AzanNext">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="Azan"
+        app:titleMarginStart="160dp"
+        app:titleTextColor="#ffffff"
+        android:id="@+id/azanToolbar"
+        android:background="#A48D61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:onClick="back"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <ScrollView
+        android:layout_below="@id/azanToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:onClick="a_azan_next"
+                android:src="@drawable/azana"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+
+            <ImageView
+                android:onClick="b_azan_next"
+                android:src="@drawable/azanb"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+
+            <ImageView
+                android:onClick="c_azan_next"
+                android:src="@drawable/azanc"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="d_azan_next"
+                android:src="@drawable/azand"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="e_azan_next"
+                android:src="@drawable/azane"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="f_azan_next"
+                android:src="@drawable/azanf"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="g_azan_next"
+                android:src="@drawable/azang"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="h_azan_next"
+                android:src="@drawable/azanh"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="i_azan_next"
+                android:src="@drawable/azani"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="j_azan_next"
+                android:src="@drawable/azanj"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="k_azan_next"
+                android:src="@drawable/azank"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="l_azan_next"
+                android:src="@drawable/azanl"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="m_azan_next"
+                android:src="@drawable/azanm"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="n_azan_next"
+                android:src="@drawable/azann"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="o_azan_next"
+                android:src="@drawable/azano"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="p_azan_next"
+                android:src="@drawable/azanp"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+
+            <ImageView
+                android:onClick="q_azan_next"
+                android:src="@drawable/azanq"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="r_azan_next"
+                android:src="@drawable/azanr"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="s_azan_next"
+                android:src="@drawable/azans"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="t_azan_next"
+                android:src="@drawable/azant"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TalwatNextActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="Talawat"
+        app:titleMarginStart="150dp"
+        app:titleTextColor="#ffffff"
+        android:id="@+id/talawatToolbar"
+        android:background="#A48D61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:onClick="back"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <ScrollView
+        android:layout_below="@id/talawatToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:onClick="a_next"
+                android:src="@drawable/a"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+
+            <ImageView
+                android:onClick="b_next"
+                android:src="@drawable/b"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+
+            <ImageView
+                android:onClick="c_next"
+                android:src="@drawable/c"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="d_next"
+                android:src="@drawable/d"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="e_next"
+                android:src="@drawable/e"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="f_next"
+                android:src="@drawable/f"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="g_next"
+                android:src="@drawable/g"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="h_next"
+                android:src="@drawable/h"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="i_next"
+                android:src="@drawable/i"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="j_next"
+                android:src="@drawable/j"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="k_next"
+                android:src="@drawable/k"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="l_next"
+                android:src="@drawable/l"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="m_next"
+                android:src="@drawable/m"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="n_next"
+                android:src="@drawable/n"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="o_next"
+                android:src="@drawable/o"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+            <ImageView
+                android:onClick="p_next"
+                android:src="@drawable/p"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+
+            <ImageView
+                android:onClick="q_next"
+                android:src="@drawable/q"
+                android:layout_width="match_parent"
+                android:layout_height="65sp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
